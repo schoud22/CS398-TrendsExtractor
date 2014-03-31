@@ -1,7 +1,7 @@
 import twitter
 import urllib
 import json
-
+import urllib2
 WORLD_WOE_ID = 1
 
 US_WOE_ID = 2379574 # Chicago's WOE_ID # used for trends extraction
