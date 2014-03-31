@@ -1,23 +1,22 @@
+import urllib
 import urllib2
 import json
 import pprint
 import facebook
 from pprint import pprint
 
-access_token = "CAAIjXC4LbYcBABShOdcFBV3N0Itn5ZAYJGHuloqJ0pZC76ukrwB8R8NhRWza3CcNgtiMn6lRXcHp3fGDjKyWwqCAZAqHcWRZBywcbkMTJyFhEoEiTHN17eefamLJ7I3RDx5nyL2LQfusGEzImICugOsZAtZAP3IZAkDNIfllTVrWTo9NIGhXzb8eNWoanSEnuEhj6VYyPZBGxgZDZD"
+access_token = 'CAAIjXC4LbYcBAFjAm5ogj1oCVEOcQWPripEVbHEgfnIDIGALYu1t2AC4eNufnv0mPM283Cl5tIoVRgKgGkftbQbCfkGol7xCT7wMp6VqRJvA5RiIKqffooJJE2mGZBTZCorg1PUpZBWuXaOBGxBWOXldQwoGzC7rPxU4TEusMJww4rgrMqUwG1htB7GBqV6qdmQj6qowgZDZD'
 url = "https://graph.facebook.com/304916642963315/feed?access_token=" + access_token
 
 g = facebook.GraphAPI(access_token)
 
-data = urllib2.urlopen(url)
+data = urllib.urlopen(url)
 j = json.load(data)
-posts = j["data"]
-	
 			
-s= g.request('search', { 'q' : '&','type' : 'page', 'limit' : 10 , 'locale' : 'ar_AR' })
+search_trend = g.request('search', { 'q' : '&','type' : 'page', 'limit' : 10 , 'locale' : 'ar_AR' })
 
 f = open("samples.txt", 'w')
-f.write(json.dumps(s, indent=1))
+f.write(json.dumps(search_trend, indent=1))
 f.close()
 
 print "done" 
