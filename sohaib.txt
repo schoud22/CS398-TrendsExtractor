@@ -1,0 +1,74 @@
+[
+ {
+  "created_at": "2014-03-31T16:24:25Z", 
+  "trends": [
+   {
+    "url": "http://twitter.com/search?q=%23OpeningDay", 
+    "query": "%23OpeningDay", 
+    "name": "#OpeningDay", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%23BeatTheBuzzer", 
+    "query": "%23BeatTheBuzzer", 
+    "name": "#BeatTheBuzzer", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%22World+Series%22", 
+    "query": "%22World+Series%22", 
+    "name": "World Series", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%22White+Sox%22", 
+    "query": "%22White+Sox%22", 
+    "name": "White Sox", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=Chicago", 
+    "query": "Chicago", 
+    "name": "Chicago", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%22The+Cubs%22", 
+    "query": "%22The+Cubs%22", 
+    "name": "The Cubs", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=Starbucks", 
+    "query": "Starbucks", 
+    "name": "Starbucks", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=Wrigley", 
+    "query": "Wrigley", 
+    "name": "Wrigley", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%23mcm", 
+    "query": "%23mcm", 
+    "name": "#mcm", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%22The+Walking+Dead%22", 
+    "query": "%22The+Walking+Dead%22", 
+    "name": "The Walking Dead", 
+    "promoted_content": null
+   }
+  ], 
+  "as_of": "2014-03-31T16:26:26Z", 
+  "locations": [
+   {
+    "woeid": 2379574, 
+    "name": "Chicago"
+   }
+  ]
+ }
+]
