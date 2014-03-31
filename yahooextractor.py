@@ -1,10 +1,10 @@
 import urllib
 import urllib2
-import simplejson as json
-from config.settings import *
+import sys
+# from config.settings import *
 
 def fetch_woeid_details(woeid):
-    values = {'appid': yahoo_app_id, 'format': 'json'}
+    values = {'appid': 'HTLeNizV34H33bOH5ZSeLMsw1qFcb1POf6aykZqISEr1BDwZ_qsTgNlWCkVO.G2ebcQ5dK8-', 'format': 'json'}
     data = urllib.urlencode(values)
 
     url = 'http://where.yahooapis.com/v1/place/%s?%s' % (woeid, data)
@@ -26,4 +26,6 @@ if __name__ == '__main__':
 
     place = 1      # WORLD WOEID
     result = json.loads(fetch_woeid_details(place))
-    print json.dumps(result, indent=10)
+    print json.dumps(result, indent=5)
+    
+    
