@@ -1,5 +1,6 @@
 import urllib
 import urllib2
+import simplejson as json
 from config.settings import *
 
 def fetch_woeid_details(woeid):
